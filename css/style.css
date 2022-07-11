@@ -1,0 +1,1122 @@
+.containerPortfolio {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    width: 100%;
+}
+/* slider of backgroundImages and texts */
+.slider {
+    width: 100%;
+    height: 972px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(200, 192, 192, 0.284);
+    transition: all 0.5s;
+    position: relative;
+}
+.slider_text {
+    width: 100%;
+    height: 972px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    color: yellow;
+}
+.top_text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Roca {
+    margin-left: 2.7%;
+}
+.RocaP1 {
+    font-size: 40px;
+    font-family: 'Poppins_ExtraBold';
+}
+.RocaP2 {
+    font-size: 13px;
+    font-family: 'Montserrat_Thin';
+}
+.aboutMe {
+    width: 18%;
+    margin-left: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.aboutMeP1 {
+    font-size: 158.3px;
+    font-family: 'Poppins';
+}
+.aboutMeP2 {
+    position: absolute;
+    font-size: 43.17px;
+    color: yellowgreen;
+    font-family: 'Poppins';
+}
+.middle_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.middle_textP {
+    line-height: 78px;
+    padding-left: 50%;
+}
+.middle_textIcones {
+    display: flex;
+    margin-top: 10%;
+    padding-left: 50%;
+}
+.middle_textP1 {
+    font-size: 49.7px;
+    font-family: 'Raleway_Regular';
+}
+.middle_textP2 {
+    font-size: 71px;
+    font-family: 'PT Serif_Bold';
+}
+.middle_textP3 {
+    font-size: 23.29px;
+    padding-left: 2%;
+    font-family: 'Raleway_Regular';
+}
+.fb {
+    padding-left: 17px;
+}
+.instagram_icone {
+    padding-left: 17px;
+    padding-right: 17px;
+    width: 30px;
+    height: 30px;
+}
+.bottom_text {
+    display: flex;
+}
+.bottom_text p {
+    width: 100%;
+    font-size: 24px;
+    padding-left: 80%;
+    font-family: 'Montserrat_Bold';
+}
+
+.bottom_text span {
+    color: #E93656;
+}
+/*დაიწყო  More info about me */
+.MoreInfoAboutme {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 133px;
+}
+.MoreInfoAboutme1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.MoreInfoAboutme1P1 {
+    font-size: 40px;
+    margin-bottom: 6px;
+    font-family: 'PT Serif_Bold';
+}
+.MoreInfoAboutme1P2 {
+    font-size: 14px;
+    color: #DAAE19;
+    margin-bottom: 33px;
+    font-family: 'Mulish_ExtraLight';
+}
+.MoreInfoAboutme1P3 {
+    text-align: justify;
+    font-size: 15px;
+}
+.MoreInfoAboutme1_button {
+    width: 152px;
+    height: 50px;
+    margin-top: 60px;
+    cursor: pointer;
+    background-color: #E93656;
+    font-size: 15px;
+    font-family: 'PT Serif_Bold';
+}
+.MoreInfoAboutme2 {
+    width: 30%;
+}
+.photoOfMe {
+    width: 100%;
+    height: 603PX;
+}
+/* დაიწყო progresss bar */
+.progressBox {
+    width: 30%;
+    font-family: 'PT Serif_Bold';
+}
+.progressBox p {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.progressSection span {
+    color: #E93656;
+}
+.progress {
+    width: 100%;
+    height: 18px;
+    background-color: #F0F0F0;
+}
+.progress_bar {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    transition: all 1.5s;
+    background-color: #E93656;
+}
+.progressBoxTextIcones {
+    display: flex;
+    margin-top: 78px;
+}
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+    width: 50px;
+    height: 50px;
+}
+.icone .fb {
+    padding-left: 0px;
+}
+
+.icone:hover {
+    background-color: #15263E;
+}
+/* დაიწყო info address */
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 210px;
+    margin-top: 100px;
+    background-color: #131A36;
+    color: #FFFFFF;
+}
+.infoTextP1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: 'PT Serif_Bold';
+}
+.infoTextP2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Mulish_ExtraLight';
+}
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address a {
+    margin-right: 10%;
+}
+.infoImage {
+    border: 2px dotted #FFFFFF;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoImage:hover {
+    cursor: pointer;
+    background-color: #E93656;
+}
+/* დაიწყო service */
+.serviceBox {
+    width: 85%;
+    height: 730px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 203px;
+    margin-bottom: 160px;
+}
+.service {
+    width: 23%;
+    height: 48%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(237, 228, 228);
+}
+.service2 {
+    background-color: #15263E;
+    color: #FFFFFF;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.service1 img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 15px;
+}
+.service1 p {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'PT Serif_Bold';
+}
+.service2P1 {
+    font-size: 22px;
+    margin-bottom: 19px;
+    text-align: center;
+    width: 90%;
+    font-family: 'PT Serif_Bold';
+}
+.service2P2 {
+    text-align: justify;
+    font-size: 14px;
+    width: 90%;
+    font-family: 'Mulish_ExtraLight';
+}
+.service:hover .service1 {
+    display: none;
+}
+.service:hover .service2 {
+    display: flex;
+}
+/* დაიწყო Recommendation სექცია */
+.RecommendationSlider {
+    width: 100%;
+    height: 570px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../image/Recommendation/parallax.png");
+    margin-bottom: 144px;
+    color: #FFFFFF;
+}
+.text {
+    width: 25%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Roboto_Light';
+}
+.rec_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profession {
+    color: #E93656;
+    font-size: 13px;
+    margin-top: 36px;
+    margin-bottom: 8px;
+    font-family: 'Roboto_Regular';
+}
+.name {
+    font-size: 28px;
+    font-family: 'PT Serif_Bold';
+}
+.bullets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20px;
+    height: 150px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+.bullet {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.active {
+    border: 2px solid #E93656;
+}
+.profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 65px;
+}
+/* დაიწყო Latest Projects */
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 55px;
+    font-family: 'PT Serif_Bold';
+}
+.LatestProjects {
+    max-width: 1170px;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.LatestProjectsSideBar {
+    width: 20%;
+    height: 50%;
+    background-color: #15263E;
+    margin-right: 2%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 4%;
+    font-size: 20px;
+    font-family: 'PT Serif_Bold';
+}
+.LatestProjectsSideBar p:hover {
+    color: #E93656;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'PT Serif_Bold';
+}
+.LatestProjectsContent {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.ContentInner {
+    width: 33%;
+    height: 100%;
+    margin-right: 1%;
+}
+.ContentShow {
+    width: 100%;
+    height: 100%;
+}
+.ContentShow img {
+    width: 100%;
+    height: 100%;
+}
+.contentHide {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.contentHide img {
+    margin-bottom: 17px;
+}
+.contentHideP1 {
+    margin-bottom: 7px;
+    font-size: 11px;
+    color: #DDDDDD;
+    font-family: 'Mulish_ExtraLight';
+}
+.contentHideP2 {
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family: 'PT Serif_Bold';
+}
+.ContentInner:hover .ContentShow {
+    display: none;
+}
+.ContentInner:hover .contentHide {
+    display: flex;
+}
+.block {
+    display: flex;
+}
+.none {
+    display: none;
+}
+/* დაიწყო Latest Articles */
+h6 {
+    text-align: center;
+    font-size: 13px;
+    color: #2ED279;
+    margin-bottom: 10px;
+    font-family: 'PT Serif_Bold';
+}
+.LatestArticles {
+    margin-top: 79px;
+    margin-bottom: 169px;
+    width: 100%;
+    height: 1770px;
+}
+.LatestArticles1 {
+    width: 90%;
+    height: 33.3%;
+    display: flex;
+    margin-left: 5%;
+}
+.Graphic_Designer {
+    width: 38%;
+    background-color: rgb(252, 250, 250);
+    padding-left: 2%;
+    padding-top: 79px;
+    padding-left: 10%;
+}
+.Graphic_DesignerBlue {
+    background-color: #15263E;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+}
+.Graphic_DesignerBlue p {
+    color: #E93656;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    font-family: 'PT Serif_Bold';
+}
+.Graphic_DesignerGray {
+    background-color: #E1E0DC;
+    width: 51%;
+}
+.Graphic_Designer img {
+    margin-bottom: 34px;
+}
+.Graphic_DesignerP1 {
+    font-size: 19px;
+    color: #888888;
+    margin-bottom: 2px;
+    font-family: 'Mulish_ExtraLight';
+}
+.Graphic_DesignerP2 {
+    font-size: 40px;
+    margin-bottom: 29px;
+    font-family: 'PT Serif_Bold';
+}
+.Graphic_DesignerP3 {
+    color: #444444;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Mulish_ExtraLight';
+}
+.LatestArticles2 {
+    width: 90%;
+    height: 33.3%;
+    display: flex;
+}
+.Application_DesignColorfulGray {
+    background-color: #E1E0DC;
+    display: flex;
+    width: 44%;
+}
+.Application_DesignColorfulBlue {
+    background-color: #15263E;
+    width: 7%;
+    color: #E93656;
+    display: flex;
+    justify-content: center;
+}
+.Application_DesignColorfulBlue p {
+    color: #E93656;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    font-family: 'PT Serif_Bold';
+}
+.Application_Design {
+    width: 49%;
+    background-color: rgb(252, 250, 250);
+}
+.Application_Design img {
+    margin-bottom: 34px;
+    padding-left: 20%;
+    padding-top: 80px;
+}
+.Application_DesignP1 {
+    font-size: 19px;
+    color: #888888;
+    margin-bottom: 2px;
+    padding-left: 20%;
+    font-family: 'Mulish_ExtraLight';
+}
+.Application_DesignP2 {
+    font-size: 40px;
+    margin-bottom: 29px;
+    padding-left: 20%;
+    font-family: 'PT Serif_Bold';
+}
+.Application_DesignP3 {
+    color: #444444;
+    width: 70%;
+    text-align: justify;
+    padding-left: 20%;
+    font-family: 'Mulish_ExtraLight';
+}
+.LatestArticles3 {
+    width: 90%;
+    height: 33.3%;
+    display: flex;
+    margin-left: 5%;
+}
+.Personal_Adviser {
+    width: 38%;
+    background-color: rgb(252, 250, 250);
+    padding-left: 2%;
+    padding-top: 79px;
+    padding-left: 10%;
+}
+.Personal_AdviserBlue {
+    background-color: #15263E;
+    width: 7%;
+    height: 100%;
+    color: #E93656;
+    display: flex;
+    justify-content: center;
+
+}
+.Personal_AdviserBlue p {
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    font-family: 'PT Serif_Bold';
+}
+.Personal_AdviserGray {
+    background-color: #E1E0DC;
+    width: 51%;
+}
+.Personal_Adviser img {
+    margin-bottom: 34px;
+}
+.Personal_AdviserP1 {
+    font-size: 19px;
+    color: #888888;
+    margin-bottom: 2px;
+    font-family: 'Mulish_ExtraLight';
+}
+.Personal_AdviserP2 {
+    font-size: 40px;
+    margin-bottom: 29px;
+    font-family: 'PT Serif_Bold';
+}
+.Personal_AdviserP3 {
+    color: #444444;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Mulish_ExtraLight';
+}
+/* დაიწყო team */
+.team {
+    max-width: 1170px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 155px;
+}
+.teamBox {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.teamBox1 {
+    width: 100%;
+    height: 100%;
+    margin-right: 2%;
+}
+.teamBox2 {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #E93656;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    display: none;
+}
+.teamBox1 img {
+    width: 100%;
+    height: 100%;
+}
+.teamBox2 p {
+    width: 90%;
+    font-size: 13px;
+    margin-top: 5%;
+    font-family: 'Roboto_Light';
+}
+.teamBox2 h2 {
+    font-family: 'Poppins_SemiBold';
+    font-size: 16px;
+}
+.teamBox:hover .teamBox1 {
+    display: none;
+}
+.teamBox:hover .teamBox2 {
+    display: flex;
+}
+/* დაიწყო CONTACT US */
+.contactUs {
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url("../image/map.png");
+    background-color: #0005;
+    background-blend-mode: darken;
+}
+.contactUsP1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-family: 'Merriweather_Regular';
+}
+.contactUsP2 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 3%;
+    font-family: 'Roboto_Light';
+}
+form {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact input {
+    width: 100%;
+    height: 50%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-size: 10px;
+    font-family: 'Poppins_SemiBold';
+}
+.button {
+    margin-top: 30px;
+    width: 187px;
+    height: 50px;
+    background: transparent;
+    border: 4px solid #E93656;
+    color: #E93656;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'PT Serif_Bold';
+}
+textarea {
+    width: 97%;
+    height: 30%;
+    margin-right: 2%;
+    font-family: 'Poppins_SemiBold';
+}
+/* დაიწყო footer */
+.footer {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.footerGray {
+    width: 100%;
+    height: 490px;
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerGrayP1 {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    font-family: 'Poppins_ExtraBold';
+}
+.footerGrayP1 span {
+    font-size: 55px;
+    color: #E93656;
+    font-family: 'Poppins_ExtraBold';
+}
+.footerGrayP2 {
+    width: 35%;
+    font-size: 17px;
+    color: #A5A5A5;
+    text-align: center;
+    font-family: 'Roboto_Regular';
+}
+.footerIcones img {
+    width: 30px;
+    height: 30px;
+}
+.footerIcones {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footerIcones img:hover {
+    width: 40px;
+    height: 40px;
+
+}
+.footerBlue {
+    width: 100%;
+    height: 82px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerBlueP1 {
+    font-size: 15px;
+    color: #A0A8B7;
+    font-family: 'Mulish_ExtraLight';
+}
+/* რესპონსივი 1024-ზე */
+@media (max-width: 1024px) {
+    .aboutMeP1 {
+        font-size: 100px;
+    }
+    .aboutMeP2 {
+        font-size: 27px;
+    }
+    .middle_textP1 {
+        font-size: 25px;
+    }
+    .middle_textP2 {
+        font-size: 45px;
+    }
+    .middle_textP3 {
+        font-size: 15px;
+    }
+    .bottom_text p {
+        font-size: 16px;
+    }
+    .MoreInfoAboutme {
+        width: 100%;
+    }
+    .infoTextP1 {
+        font-size: 20px;
+    }
+    .infoTextP2 {
+        font-size: 14px;
+    }
+    .infoImage {
+        width: 60px;
+        height: 60px;
+    }
+    .teamBox1 {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+/* რესპონსივი 480-ზე */
+@media (max-width: 480px) {
+    .slider {
+        
+        height: 685px;
+    }
+    .slider_text {
+        height: 685px;
+    }
+    .aboutMe {
+        margin-left: 50%;
+    }
+    .RocaP1 {
+        font-size: 25px;
+    }
+    .aboutMeP1 {
+        font-size: 70px;
+    }
+    .aboutMeP2 {
+        font-size: 15px;
+    }
+    .middle_text {
+        align-items: center;
+    }
+    .middle_textP {
+        padding-left: 0%;
+    }
+    .middle_textIcones {
+        padding-left: 0%;
+    }
+    .middle_textP1 {
+        font-size: 30px;
+    }
+    .middle_textP2 {
+        font-size: 40px;
+    }
+    .middle_textP3 {
+        font-size: 20px;
+    }
+    .bottom_text p {
+        font-size: 14px;
+        padding-left: 60%;
+    }
+    /*დაიწყო  More info about me */
+
+    .MoreInfoAboutme2 {
+        display: none;
+    }
+    .MoreInfoAboutme1 {
+        width: 40%;
+    }
+    .progressBox {
+        width: 40%;
+    }
+    .progressBoxTextIcones {
+        margin-top: 130px;
+    }
+    /* დაიწყო info address */
+    .info {
+        justify-content: space-evenly;
+    }
+    .infoTextP1 {
+        display: none;
+    }
+    .infoTextP2 {
+        display: none;
+    }
+    /* დაიწყო service */
+    .serviceBox {
+        width: 100%;
+        height: 500px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+    .service1 p {
+        font-size: 10px;
+    }
+    .service2P1 {
+        font-size: 10px;
+    }
+    .service2P2 {
+        font-size: 10px;
+    }
+    /* დაიწყო Recommendation სექცია */
+    .profile {
+        display: none;
+    }
+    .text {
+        text-align: left;
+        font-size: 18px;
+    }
+    .profession {
+        margin-top: 25px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .bullets {
+        height: 100px;
+    }
+    /* დაიწყო Latest Projects */
+    h1 {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+    .LatestProjects {
+        height: 350px;
+        margin-bottom: 100px;
+    }
+    .LatestProjectsSideBar {
+        height: 55%;
+        font-size: 20px;
+    }
+    .LatestProjectsSideBar p {
+        font-size: 15px;
+    }
+    .LatestProjectsSideBar p:hover {
+        font-size: 15px;
+    }
+    /* დაიწყო Latest Articles */
+    h6 {
+        margin-bottom: 10px;
+    }
+    .LatestArticles {
+        height: 1400px;
+    }
+    .LatestArticles1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .Graphic_Designer {
+        width: 85%;
+        padding-top: 10px;
+    }
+    .Graphic_Designer img {
+        margin-bottom: 2px;
+    }
+    .Graphic_DesignerP1 {
+        font-size: 14px;
+    }
+    .Graphic_DesignerP2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .Graphic_DesignerP3 {
+        width: 90%;
+    }
+    .Graphic_DesignerBlue {
+        width: 15%;
+    }
+    .Graphic_DesignerGray {
+        display: none;
+    }
+    .LatestArticles2 {
+        width: 100%;
+    }
+    .Application_DesignColorfulGray {
+        display: none;
+    }
+    .Application_DesignColorfulBlue {
+        width: 15%;
+    }
+    .Application_Design {
+        width: 85%;
+    }
+    .Application_Design img {
+        margin-bottom: 4px;
+        padding-top: 2px;
+    }
+    .Application_DesignP1 {
+        padding-left: 8%;
+        font-size: 14px;
+    }
+    .Application_DesignP2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+        padding-left: 8%;
+    }
+    .Application_DesignP3 {
+        width: 85%;
+        text-align: justify;
+        padding-left: 8%;
+    }
+    .LatestArticles3 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .Personal_Adviser {
+        width: 85%;
+    }
+    .Personal_AdviserP1 {
+        font-size: 35px;
+        font-size: 14px;
+    }
+    .Personal_AdviserP2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .Personal_AdviserP3 {
+        width: 90%;
+    }
+    .Personal_AdviserBlue {
+        width: 15%;
+    }
+    .Personal_AdviserGray {
+        display: none;
+    }
+    /* დაიწყო team */
+    .team {
+        height: 140px;
+        margin-bottom: 90px;
+    }
+    .teamBox {
+        height: 50%;
+    }
+    .teamBox1 img {
+        width: 80%;
+    }
+    .teamBox2 {
+        align-items: flex-start;
+    }
+    .teamBox2 h2 {
+        font-size: 10px;
+    }
+    .teamBox2 p {
+        width: 100%;
+        font-size: 8px;
+        margin-top: 0%;
+    }
+    /* დაიწყო CONTACT US */
+    .contactUs {
+        height: 500px;
+    }
+    .contactUsP1 {
+        font-size: 35px;
+    }
+    .contactUsP2 {
+        font-size: 15px;
+    }
+    /* დაიწყო footer */
+    .footerGrayP2 {
+        width: 80%;
+        text-align: justify;
+    }
+    .footerIcones {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+.footerBlueP1 {
+    font-size: 12px;
+}
+}
